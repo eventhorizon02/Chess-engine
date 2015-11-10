@@ -19,7 +19,7 @@
 #define version 1.0
 #define NO_MOVE -99
 
-//#define NDEBUG
+#define NDEBUG
 #include <cassert>
 enum { WR, WN, WB, WQ, WK, WP, BR, BN, BB, BQ, BK, BP, EMPTY, OFFBOARD };
 enum { RANK_1, RANK_2, RANK_3, RANK_4, RANK_5, RANK_6, RANK_7, RANK_8 };
